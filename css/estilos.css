@@ -1,0 +1,21 @@
+.navbar-default .navbar-nav>li>a.navbar-btn {
+    color: #FFF;
+}
+.navbar-default .navbar-nav>li>a.navbar-btn:hover,
+.btn-group>.btn:hover {
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#6d7070),color-stop(50%,#474949),to(#3d3f3f));
+    background-image: -webkit-linear-gradient(#6d7070,#474949 50%,#3d3f3f);
+    background-image: -moz-linear-gradient(top,#6d7070,#474949 50%,#3d3f3f);
+    background-image: linear-gradient(#6d7070,#474949 50%,#3d3f3f);
+    background-repeat: no-repeat;
+    border: 1px solid #2e2f2f;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6d7070',endColorstr='#ff3d3f3f',GradientType=0);
+    text-decoration: none;
+}
+.nav>li>a:hover {
+    text-decoration: underline;
+}
+.textoEnBoton {
+    width: 100%;
+    display: block;
+}

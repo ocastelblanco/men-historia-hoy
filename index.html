@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    <link href="css/estilos.css" rel="stylesheet" media="screen">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -15,22 +15,51 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Historia Hoy</h1>
     <div class="row">
         <div class="col-md-1"></div>
-            <nav class="col-md-10 navbar navbar-default" role="navigation">
-                <ul class="nav navbar-nav">
-                    <li class="alert-info"><a href="#">Inicio del módulo 1</a></li>
-                    <li class="active"><a href="#">Eje 1: Creando nuevas historias</a></li>
-                    <li class="active"><a href="#">Eje 2: Construyendo saber pedagógico</a></li>
-                </ul>
+        <div class="col-md-10">
+            <nav class="navbar navbar-default navbar-static-top" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Navegación variable</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="img/logoHH.png" class="img-responsive"></a>
+                </div>
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <div class="btn-group btn-group-justified btn-group-lg">
+                        <a class="btn btn-primary" href="#">Inicio del módulo 1</a>
+                        <a class="btn btn-primary" href="#">Creando nuevas historias</a>
+                    </div>
+                    <div class="btn-group btn-group-justified btn-group-sm">
+                        <a class="btn btn-default" href="#">Propósito</a>
+                        <a class="btn btn-default" href="#">Contexto</a>
+                        <a class="btn btn-default" href="#">Desarrollo del tema</a>
+                        <a class="btn btn-default" href="#">Para profundizar</a>
+                        <a class="btn btn-default" href="#">Ejercicio</a>
+                        <a class="btn btn-default" href="#">Lect. complementarias</a>
+                        <a class="btn btn-default" href="#">Bibliografía</a>
+                    </div>
+                </div>
             </nav>
+        </div>
         <div class="col-md-1"></div>
+    </div>
+    <p><br><br></p>
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <img src="img/img1.jpg"class="img-rounded img-responsive">
+        </div>
+        <div class="col-sm-2"></div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-migrate.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
